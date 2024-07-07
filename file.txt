@@ -20,3 +20,9 @@ Modules are exported using export and export default. While require
 is still used in older Node.js projects, import is preferred in modern 
 development due to better performance, static analysis, and native 
 browser support.
+
+
+Amazon S3 (Simple Storage Service) is a scalable, high-speed, 
+web-based cloud storage service designed for online backup and 
+archiving of data and applications on Amazon Web Services (AWS). 
+Here are the key features and benefits of Amazon S3:
