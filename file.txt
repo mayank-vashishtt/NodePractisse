@@ -1,1 +1,22 @@
 hello world ! 
+nodejs -- v8 engine to run your code and create a backend server 
+
+server -- accept the request and respond to the request 
+you can run your backend lang on the clouds proived to you like aws 
+
+what is diff between require and import ?
+ 
+require and import are both used for including modules in JavaScript, 
+but they belong to different module systems. require is part of the 
+CommonJS module system, primarily used in Node.js, and is executed at
+runtime, allowing for conditional loading of modules. Its syntax is 
+straightforward and uses module.exports or exports for exporting 
+modules. In contrast, import is part of the ES6 module system, 
+which is the modern standard for both browser and Node.js 
+environments. import statements are executed at compile time, 
+cannot be conditionally loaded in the same way as require, and 
+support various import styles like named imports and default imports. 
+Modules are exported using export and export default. While require 
+is still used in older Node.js projects, import is preferred in modern 
+development due to better performance, static analysis, and native 
+browser support.
